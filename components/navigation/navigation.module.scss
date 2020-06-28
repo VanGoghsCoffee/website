@@ -1,0 +1,60 @@
+.navigation {
+  text-transform: uppercase;
+  font-weight: 600;
+  align-items: center;
+  padding: 15px 50px 25px 50px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  .logo {
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 15px 10px 10px;
+  }
+
+  ul {
+    list-style: none;
+    display: grid;
+    justify-content: right;
+    grid-template-columns: repeat(3, auto);
+    padding: 0;
+
+    li {
+      margin-right: 3rem;
+      color: #333;
+
+      &:after {
+        content: "/";
+        position: absolute;
+        margin-left: 1.5rem;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+        &:after {
+          content: "";
+        }
+      }
+
+      a {
+        padding: 5px 8px;
+
+        &:hover {
+          background: linear-gradient(45deg, royalblue, aqua);
+          text-decoration: none;
+          -webkit-text-fill-color: inherit;
+          color: #FFF;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  background: linear-gradient(45deg, royalblue, aqua);
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 2px;
+}
