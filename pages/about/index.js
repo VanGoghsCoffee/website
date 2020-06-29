@@ -8,10 +8,15 @@ import WorkExperience from "./work-experience";
 import SelectedExperience from "./selected-experience";
 import Education from "./education";
 import Publications from "./publications";
+import Head from "next/head";
 
 const Index = () => {
     return (
         <main className={styles.content}>
+            <Head>
+                <title>About | DavidRochholz.de</title>
+                <meta property="og:title" content="About | DavidRochholz.de" key="title" />
+            </Head>
             <div className={styles.personalInformation}>
                 <article>
                     <img src='img/david-rochholz-foto.1024x1024.jpg' alt='David Rochholz profile'/>
