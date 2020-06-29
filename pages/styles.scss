@@ -5,10 +5,38 @@
 
 body {
   font-family: $sans-serif;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #222;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 20px 0;
+  font-family: $serif;
+  line-height: 1.5em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+article {
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  @media (min-width: 500px) {
+    font-size: 3.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.8rem;
+  @media (min-width: 500px) {
+    font-size: 2.5rem;
+  }
 }
 
 ::selection {
@@ -29,5 +57,9 @@ a:hover {
 }
 
 main {
-  margin: 25px 50px 0 50px;
+  margin: 25px 25px 0 25px;
+
+  @media (min-width: 800px) {
+    margin: 25px 50px 0 50px;
+  }
 }
