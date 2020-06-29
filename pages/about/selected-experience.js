@@ -30,7 +30,7 @@ export default function SelectedExperience({id}) {
                     <ul className={styles.jobDescription}>
                         <li>
                             <p>The ESAC trainee program for 2015 came to my attention while procrastinating my bachelor's thesis on Twitter. Taking the traineeship meant to delay my master's studies by at least half a year, since going to Madrid wasn't considered in my study plan. Yet, one of my professors encouraged me to continue my studies outside of the campus as there was no compulsory attendance. I also already finished all of my exams, leaving me only with project works and my master's thesis.<br />
-                                As a trainee, I was part of the XMM-Newton Science Operations Centre, working on a collaborative software for researchers specialized in black holes and their <a href={'https://en.wikipedia.org/wiki/Tidal_disruption_event'} title={'Wikipedia Tidal Disruption Event'} target={'_blank'}>Tidal Disruption Events</a>.</p>
+                                As a trainee, I was part of the XMM-Newton Science Operations Centre, working on a collaborative software for researchers specialized in black holes and their <a href={'https://en.wikipedia.org/wiki/Tidal_disruption_event'} title={'Wikipedia Tidal Disruption Event'} target={'_blank'} rel="noreferrer noopener">Tidal Disruption Events</a>.</p>
                         </li>
                     </ul>
                 )}/>

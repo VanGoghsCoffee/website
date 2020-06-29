@@ -34,19 +34,19 @@ const Index = () => {
                             <div className={`${styles.aboutIcon}`}>
                                 <FontAwesomeIcon icon={faGithub} />
                             </div>
-                            <div><a href='https://github.com/vangoghscoffee' title='David Rochholz GitHub' target='_blank'>VanGoghsCoffee</a></div>
+                            <div><a href='https://github.com/vangoghscoffee' title='David Rochholz GitHub' target='_blank' rel="noreferrer noopener">VanGoghsCoffee</a></div>
                         </li>
                         <li>
                             <div className={`${styles.aboutIcon}`}>
                                 <FontAwesomeIcon icon={faInstagram} />
                             </div>
-                            <div><a href='https://www.instagram.com/vangoghscoffee/' title='David Rochholz Instagram' target='_blank'>VanGoghsCoffee</a></div>
+                            <div><a href='https://www.instagram.com/vangoghscoffee/' title='David Rochholz Instagram' target='_blank' rel="noreferrer noopener">VanGoghsCoffee</a></div>
                         </li>
                         <li>
                             <div className={`${styles.aboutIcon}`}>
                                 <FontAwesomeIcon icon={faTwitter} />
                             </div>
-                            <div><a href='https://twitter.com/vangoghscoffee' title='David Rochholz Twitter' target='_blank'>@VanGoghsCoffee</a></div>
+                            <div><a href='https://twitter.com/vangoghscoffee' title='David Rochholz Twitter' target='_blank' rel="noreferrer noopener">@VanGoghsCoffee</a></div>
                         </li>
                     </ul>
                 </article>
